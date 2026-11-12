@@ -20,3 +20,8 @@ Este addon usa Mixins para tratar o Mangekyo do Sasuke como elegível somente na
 
 ## Importante
 Este pacote é o **projeto-fonte**, não um JAR pronto para colocar em `mods`. O ambiente desta sessão não tem Gradle/ForgeGradle instalado para resolver as dependências e compilar um mod executável. Teste primeiro em uma cópia do mundo. Se o Narutoto tiver outro build/versão ou se o nome interno do proprietário do Mangekyo for diferente, os pontos de compatibilidade precisarão ser ajustados.
+
+
+## Correção do erro de Gradle 9
+O workflow fixa o Gradle em **8.8**, pois ForgeGradle 6.x rejeita Gradle 9 ou superior.
+A propriedade `gradle/wrapper/gradle-wrapper.properties` também aponta para Gradle 8.8.
