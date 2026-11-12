@@ -25,3 +25,6 @@ Este pacote é o **projeto-fonte**, não um JAR pronto para colocar em `mods`. O
 ## Correção do erro de Gradle 9
 O workflow fixa o Gradle em **8.8**, pois ForgeGradle 6.x rejeita Gradle 9 ou superior.
 A propriedade `gradle/wrapper/gradle-wrapper.properties` também aponta para Gradle 8.8.
+
+## Correção do ResourcePackInfo (Minecraft 1.20.1)
+O projeto inclui `src/main/resources/pack.mcmeta`, que será empacotado na raiz do JAR. Para Minecraft 1.20.1, o `pack_format` é `15`. Isso corrige a ausência dos metadados que impedia o Forge/Minecraft de reconhecer os recursos empacotados como um resource pack válido.
