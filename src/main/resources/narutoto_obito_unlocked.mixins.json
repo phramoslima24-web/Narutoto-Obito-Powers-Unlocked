@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "br.com.narutoto.obitounlocked.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "narutoto_obito_unlocked.refmap.json",
+  "mixins": [
+    "KamuiIntangibleMixin",
+    "KamuiRightClickMixin",
+    "KamuiTransferMixin",
+    "KamuiTransfer2Mixin",
+    "KamuiUserMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="narutoto_obito_unlocked"
+version="1.0.0"
+displayName="Narutoto: Obito Powers Unlocked"
+description='''Compatibilidade: permite usar os poderes de Kamui do Obito enquanto o Mangekyo Sharingan do Sasuke está ativo. Requer Narutoto 0.4.1 e Minecraft 1.20.1 Forge.'''
+
+[[dependencies.narutoto_obito_unlocked]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.narutoto_obito_unlocked]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.narutoto_obito_unlocked]]
+modId="narutoto"
+mandatory=true
+versionRange="[0.4.1,)"
+ordering="AFTER"
+side="BOTH"
